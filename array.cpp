@@ -4,6 +4,7 @@ int main()
 {
 int n,k,a[n],s=0;
 cout<<"enter the num in array";
+  cin>>n;
 for(i=0;i<n;i++)
 cin>>a[i];
 cout<<"enter the num to be added";
