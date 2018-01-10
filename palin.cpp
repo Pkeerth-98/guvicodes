@@ -12,5 +12,8 @@ t=t%10;
   s=s*10+t;
   t=t/10;
 }
-  if()
+  if(s==n)
+    cout<<"the num is palindrome";
+  else
+    cout<<"the num is not palindrome";
 }
