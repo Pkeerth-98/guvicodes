@@ -2,7 +2,7 @@
 #include<comio.h>
 int main()
 {
-int n,k,a[n],is=0;
+int n,k,a[n],s=0;
 cout<<"enter the num in array";
 for(i=0;i<n;i++)
 cin>>a[i];
