@@ -10,4 +10,6 @@ if(s>='a'||s>='A')
 if(s<='z'||s<='Z')
 cout<<"this is alphabet";
 }
+  else
+    cout<<"not an alphabet";
 }
