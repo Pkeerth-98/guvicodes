@@ -1,6 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
-void main()
+int main()
 {
 int n,i,x,p=1,s=0;
 cout<<"enter the number";
