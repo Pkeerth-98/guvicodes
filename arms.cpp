@@ -18,6 +18,7 @@ s=p+s;
 if(s==n)
 cout<<"the num is armstrong num";
 else
-cout<<"the numis not armstrong num ;"
+cout<<"the num is not armstrong num ;"
+return 0;
 }
-© 2018 GitHub, Inc.
+
