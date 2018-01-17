@@ -10,4 +10,5 @@ for(i=x;i<=y;i++)
 if(i%2!=0)
 cout<<"\t"<<i;
 }
+return 0;
 }
