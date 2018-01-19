@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+int n,i,s,a[100];
+cout<<"enter the size if array";
+cin>>n;
+for(i=1;i<=n;i++)
+{
+cin>>a[i];
+}
+s=(n+1)/2;
+cout<<"the median value in array is %d"<<a[s];
+}
