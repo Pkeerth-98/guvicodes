@@ -26,3 +26,4 @@ cout<<"\nsorted elements are"
 cout<<"\t%d"<<a[i];
 return 0;
 }
+}
