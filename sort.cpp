@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-int a[100],i,t,n;
+int a[100],i,j,t,n;
 cout<<"enter the size of array";
 cin>>n;
 cout<<"enter the values";
