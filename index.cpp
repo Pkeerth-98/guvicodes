@@ -6,7 +6,7 @@ int a[x],i;
 cout<<"enter the size of array";
 cin>>x;
 cout<<"enter the array num";
-for(i=0;1<=x;i++)
+for(i=0;i<=x;i++)
 {
 cin>>a[i];
 }
