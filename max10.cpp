@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-int a[10],t,i,n;
+int a[10],t,j,i,n;
 cout<<"enter 10 num";
 for(i=0;i<10;i++)
 for(j=i;j<10;j++)
