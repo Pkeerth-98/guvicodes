@@ -8,7 +8,7 @@ cout<<"enter the paragraph ";
 cin>>a[100];
   for(i=0;i<=1000;i++)
   {
-  if(a[i]=='\n')
+  if(a[i]=='.')
     ++n;
   }
   cout<<"no.of lines "<<n;
