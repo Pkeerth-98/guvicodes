@@ -3,16 +3,16 @@
 int main()
 {
 char a[50],b[50];
-cout<<"enter the string 1";
+cout<<"\nenter the string 1";
 cin>>a[50];
-cout<<"enter string 2";
+cout<<"\nenter string 2";
 cin>>b[50];
 if(strlen(a)>strlen(b))
-cout<<"string 1 is greater"<<a;
+cout<<"\nstring 1 is greater"<<a;
 else if(strlen(a)<strlen(b))
-cout<<"string 2 is greater"<<b;
+cout<<"\nstring 2 is greater"<<b;
 else
-cout<<b;
+cout<<"\n"<<b;
 getch();
 return 0;
 }
