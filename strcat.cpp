@@ -2,10 +2,11 @@
 #include<conio.h>
 {
 char a[50],b[50];
-cout<<"enter the string 1";
+cout<<"\nenter the string 1";
 cin>>a[50];
-cout<<"enter the string 2";
+cout<<"\nenter the string 2";
 cin>>b[50];
-cout<<"string concated ";
+cout<<"\nstring concated\n ";
 cout<<a<<b;
+  return 0;
 }
