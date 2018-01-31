@@ -9,6 +9,6 @@ cin>>a[50];
 cout<<"enter the no.of times";
 cin>>n;
 for(i=0;i<n;i++)
-cout<<a[50];
+cout<<"\n"<<a[50];
 return 0;
 }
