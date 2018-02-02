@@ -2,12 +2,14 @@
 #include<conio.h>
 int main()
 {
-int n,i,f=0;
+int n,i,f=1,c=0;
 cout<<"enter the num";
 cin>>f;
 for(i=0;i<=5;i++)
-f=f+1;
-cout<<"%d"<<f;
+{
+  cout<<f;
+  f=f+c;
+  c=f;}
 return 0;
 getch();
 }
