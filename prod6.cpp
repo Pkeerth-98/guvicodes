@@ -7,7 +7,7 @@ cout<<"enter num 1";
 cin>>n;
 cout<<"enter num 2";
 cin>>m;
-if((n%2==0)||(m%2==0))
+if((n*m)%2==0)
 cout<<"even";
 else
 cout<<"odd";
