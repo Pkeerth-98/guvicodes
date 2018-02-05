@@ -15,7 +15,7 @@ cout<<"the num are";
 while(m!=0)
 {
 t=m%10;
-cout<<t;
+cout<<"\t"<<t;
 m/=10;
 }
 getch();
