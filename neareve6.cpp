@@ -9,4 +9,6 @@ cout<<"enter the num ";
     cout<<n;
   else
     cout<<--n;
+  getch();
+  return 0;
 }
