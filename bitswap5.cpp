@@ -9,5 +9,6 @@ i=n;
     n=t^m;
     m=t^i;
 cout<<"swap num"<<n<<"\t"<<m;
+    getch();
     return 0;
 }
