@@ -9,12 +9,12 @@ cin>>a[100];
 for(i=0;i<100;i++)
 {
 if(isdigit(a[i])||isalpha(a[i]))
-flag=0;
-else 
-flag=1;
+flag++;;
 }
-if(flag==0)
+if(flag!=0)
 cout<<"yes";
+else
+cout<<"no";
 getch();
 return 0;
 }
