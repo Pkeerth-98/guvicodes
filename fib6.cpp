@@ -2,14 +2,16 @@
 #include<conio.h>
 int main()
 {
-int i,t=1,s=0,n;
+int i=1,j=1,t,s=0,n;
 cout<<"enter num";
 cin>>n;
-cout<<i;
-for(i=1;i<=n;i++)
+cout<<i<<"\t"<<j;
+while(s<n)
 {
-s=s+t;
-cout<<s;
-t=s;
-}
+ s=j+i;
+cout<<"\t"<<s;
+   i=j;
+   j=s;
+}getch();
+return 0; 
 }
