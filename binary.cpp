@@ -2,15 +2,18 @@
 #include<conio.h>
 int main()
 {
-char a[100];
-  int c;
+int i,a[100];
+  int c=0;
 cout<<"enter the string";
 cin>>a[100];
-if(a[0]==0)
+  for(i=0;i<=100;i++)
+  {
+    if(a[i]==0)
   ++c;
- if(a[0]==1)
+ if(a[i]==1)
     ++c;
- if(c!=0)
+  }
+  if(c!=0)
 cout<<"it is binary";
 else
 cout<<"not binary";
