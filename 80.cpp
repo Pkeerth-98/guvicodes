@@ -7,7 +7,7 @@ cin>>n;
 if(n!=0)
 {i=n%10;
 if(i%2!=0)
-cout<<i;
+cout<<"/t"<<i;
 n=n/10;
 }
 getch();
