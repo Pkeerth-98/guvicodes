@@ -2,12 +2,13 @@
 #include<conio.h>
 int main()
 {
-float l,b;
+float l,b,n;
 cout<<"enter length";
 cin>>l;
 cout<<"enter breadth";
 cin>>b;
-cout<<"area of fram is"<<l*b;
+  n=l*b;
+cout<<"area of fram is"<<n;
 getch();
 return 0;
 }
