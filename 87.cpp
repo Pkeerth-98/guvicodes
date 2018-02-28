@@ -5,25 +5,11 @@ int main()
 int n,m,r,i;
 cout<<"enter 2 num";
 cin>>n>>m;
-if(m>n)
+for(i=1;i<n&&i<m;i++)
 {
-r=m%n;
-while(r!=0)
-{
-i=r;
-r=n%r;
+if((n%i==0)&&(m%i==0))
+r=i;
 }
-cout<<"gcd is"<<i;
-}
-else
-{r=n%m;
-while(r!=0)
-{
-i=r;
-r=m%r;
-}
-cout<<"gcd is"<<i;
-}
-return 0;
-getch();
+cout<<"gcd is"<<r;
+  return 0;
 }
