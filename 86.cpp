@@ -2,22 +2,23 @@
 int main()
 {
 int flag=0;
-int n,i;
-char a[n],b[n];
+int n,i,j;
+char a[n];
 cout<<"enter length of string";
 cin>>n;
 cout<<"enter string";
 cin>>a[n];
-cout<<"enter string 2";
-cin>>b[n];
 for(i=0;i<n;i++)
 {
-if(a[i]!=b[i])
+  for(j=0;j<n;j++)
+  {
+    if(a[i]==a[j])
 flag++;
 }
-if(flag!=0)
-cout<<"not isogram";
+}
+if((flag%2)==0)
+cout<<" isogram";
 else
-cout<<"isogram";
+cout<<"not isogram";
 return 0;
 }
